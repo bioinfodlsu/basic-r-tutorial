@@ -35,11 +35,11 @@ If Git is not installed, click the green `Code` button near the top right of the
 
 ## References
 
-The notebooks reference the following tutorials:
+This tutorial references the following resources:
 - https://www.kaggle.com/code/hamelg/intro-to-r-index/notebook
 - https://uclouvain-cbio.github.io/WSBIM1207/sec-dplyr.html
 
-The dataset used was downloaded using [INPHARED](http://doi.org/10.1089/phage.2021.0007) last September 2022:
+The dataset we use in this tutorial was downloaded using [INPHARED](http://doi.org/10.1089/phage.2021.0007) last September 2022:
 - Cook, R., Brown, N., Redgwell, T., Rihtman, B., Barnes, M., Clokie, M., Stekel, D. J., Hobman, J. L., Jones, M. A., Millard, A. (2021). INfrastructure for a PHAge REference Database: Identification of large-scale biases in the current collection of cultured phage genomes. _PHAGE,2_(4), 214-223. http://doi.org/10.1089/phage.2021.0007
 
 ## Authors
