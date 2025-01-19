@@ -10,13 +10,23 @@ In recent years, R has gained popularity in the field of machine learning. Packa
 
 ## Before Starting
 
-1. Download and install both **R** and **RStudio**: https://posit.co/download/rstudio-desktop/
-1. We will be using R markdown for this tutorial. Kindly refer to this video on how to work with R markdown files on RStudio: https://www.youtube.com/watch?v=DNS7i2m4sB0
+### 1. Install the required software
+Download and install both **R** and **RStudio**: https://posit.co/download/rstudio-desktop/
+
+This tutorial consists of R markdown files. Kindly refer to this video on how to work with R markdown files on RStudio: https://www.youtube.com/watch?v=DNS7i2m4sB0
+
+### 2. Create a copy of this repository
+If you have [Git](https://git-scm.com/) installed, run the following command on the terminal:
+```
+git clone https://github.com/bioinfodlsu/basic-r-tutorial
+```
+
+If Git is not installed, click the green `Code` button near the top right of the repository and choose `Download ZIP`. Once the zipped folder has been downloaded, extract its contents.
 
 ## Topic Outline
 
 - [Introduction to R Syntax](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/1.%20Introduction%20to%20R%20Syntax.Rmd)
-- Groups of Data: Vectors, Matrices & Lists
+- [Groups of Data: Vectors, Matrices & Lists](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/2.%20Groups%20of%20Data%20-%20Vectors%2C%20Matrices%20%26%20Lists.Rmd)
 - Learn R: Data Frames
 - Manipulating Data with `dplyr`
 - Learn R: Fundamentals of Data Visualization with `ggplot2`
@@ -25,12 +35,12 @@ In recent years, R has gained popularity in the field of machine learning. Packa
 
 ## References
 
-The notebooks reference the following tutorials:
+This tutorial references the following resources:
 - https://www.kaggle.com/code/hamelg/intro-to-r-index/notebook
 - https://uclouvain-cbio.github.io/WSBIM1207/sec-dplyr.html
 
-The dataset used was downloaded using [INPHARED](http://doi.org/10.1089/phage.2021.0007) last September 2022:
-- Cook, R., Brown, N., Redgwell, T., Rihtman, B., Barnes, M., Clokie, M., Stekel, D. J., Hobman, J. L., Jones, M. A., Millard, A. (2021). INfrastructure for a PHAge REference Database: Identification of large-scale biases in the current collection of cultured phage genomes. _PHAGE,2_(4), 214-223. http://doi.org/10.1089/phage.2021.0007
+The dataset we use in this tutorial was downloaded using [INPHARED](http://doi.org/10.1089/phage.2021.0007) last September 2022:
+- Cook, R., Brown, N., Redgwell, T., Rihtman, B., Barnes, M., Clokie, M., Stekel, D. J., Hobman, J. L., Jones, M. A., & Millard, A. (2021). INfrastructure for a PHAge REference Database: Identification of large-scale biases in the current collection of cultured phage genomes. _PHAGE, 2_(4), 214-223. http://doi.org/10.1089/phage.2021.0007
 
 ## Authors
 
