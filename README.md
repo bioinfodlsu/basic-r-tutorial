@@ -14,7 +14,22 @@ Download and install both **R** and **RStudio**: https://posit.co/download/rstud
 
 ## Topic Outline
 
+- Introduction to R Syntax
+- Groups of Data: Vectors, Matrices & Lists
+- Learn R: Data Frames
+- Manipulating Data with `dplyr`
+- Learn R: Fundamentals of Data Visualization with `ggplot2`
+- Descriptive Statistics
+- Inferential Statistics
+
 ## References
+
+The notebooks reference the following tutorials:
+- https://www.kaggle.com/code/hamelg/intro-to-r-index/notebook
+- https://uclouvain-cbio.github.io/WSBIM1207/sec-dplyr.html
+
+The dataset used was downloaded using [INPHARED](http://doi.org/10.1089/phage.2021.0007) last September 2022:
+- Cook, R., Brown, N., Redgwell, T., Rihtman, B., Barnes, M., Clokie, M., Stekel, D. J., Hobman, J. L., Jones, M. A., Millard, A. (2021). INfrastructure for a PHAge REference Database: Identification of large-scale biases in the current collection of cultured phage genomes. _PHAGE,2_(4), 214-223. http://doi.org/10.1089/phage.2021.0007
 
 ## Authors
 
