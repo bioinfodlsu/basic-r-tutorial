@@ -1,0 +1,103 @@
+---
+title: "3. Learn R - Dataframes"
+author: Daphne Janelyn L. Go
+---
+
+In data analysis, information is often structured in organized in tables that have a certain number of rows and columns like an Excel spreadsheet or relational database table.
+
+R data frames are a type of data structure designed to hold such tabular data. A data frame consists of a number of rows and columns, with each column representing some variable or feature of the data and each row representing a record.
+
+A data frame is similar to a matrix in that it is a 2-dimensional data structure but unlike a matrix, different columns can hold data of different types. It is composed of many lists.
+
+You can create a new data frame by passing vectors of the same length to the data.frame() function.
+
+```{r}
+a <- c(1, 2, 3, 4, 5)
+b <- c("R", "Workshop", "SCOMB", "bioinfom", "biology")
+c <- c(TRUE, FALSE, TRUE, TRUE, FALSE)
+
+# Create a new data frame
+my_frame <- data.frame(a,b,c)
+
+my_frame
+```
+
+You can also change your column and row names.
+
+```{r}
+# Change column names
+colnames(my_frame) <- c("c1", "c2", "c3")
+
+# Add row names
+rownames(my_frame) <- c("r1", "r2", "r3", "r4","r5")
+my_frame
+```
+
+For reference, we will be loading a dataset on phage-host interaction to illustrate the use of dataframes in reading dataset files.
+
+```{r}
+dataset <- read.delim("phages.tsv")
+```
+
+**Summarizing Data Frames**
+
+Data frames support many of the summary functions that apply to matrices and lists.
+
+The str() function gives an overview of the structure of the Data Frame. It is useful to check the structure first, since running a full summary can take a while if you are working with a lot of data.
+
+The summary() function gives summary statistics for each variable in the data frame.
+
+```{r}
+str(dataset) # get a sense of the range of values in your dataset
+summary(dataset)
+```
+
+Data frames support a few other basic summary operations.
+
+```{r}
+dim (dataset)
+nrow(dataset)
+ncol(dataset)
+```
+
+If a data frame is large, you won't want to try to print the entire frame to the screen. You can look at a few rows at the beginning or end of a data frame using the head() and tail() functions respectively:
+
+```{r}
+head(dataset, 5)
+
+tail (dataset, 5)
+```
+
+**Dataframe Indexing**
+
+Since data frame are lists under the hood, where each list object is a column, they support the indexing operations that apply to lists.
+
+Data frames also support matrix-like indexing by using a single square bracket with a comma separating the index value for the row and column. Matrix indexing allows you get values by row or specific values within the data frame.
+
+****You can also delete columns in a data frame by assigning them a value of NULL.***
+
+```{r}
+head(dataset$Molecule)
+head(dataset [["Molecule"]])
+head(dataset [[7]])
+
+# Get the value at row 2 column 6
+dataset[2,6]
+
+# Get the second row
+dataset[2, ]
+
+# Get the 6th column
+dataset[ , 6]
+
+#Get a column by using its name
+dataset[, "Description"]
+```
+
+**Filtering of Dataframes**
+
+You can also use the subset() function to create data frame subsets based on logical statements. subset() takes the data frame as the first argument and then a logical statement as the second argument create a subset.
+
+```{r}
+subset(dataset,(dataset$molGC.... > 50))
+```
