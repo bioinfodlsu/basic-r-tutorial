@@ -29,7 +29,7 @@ If Git is not installed, click the green `Code` button near the top right of the
 - [Groups of Data: Vectors, Matrices & Lists](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/2.%20Groups%20of%20Data%20-%20Vectors%2C%20Matrices%20%26%20Lists.Rmd)
 - [Learn R: Data Frames](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/3.%20Learn%20R%20-%20Dataframes.Rmd)
 - [Manipulating Data with `dplyr`](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/4.%20Manipulating%20Data%20with%20dplyr.Rmd)
-- Learn R: Fundamentals of Data Visualization with `ggplot2`
+- [Learn R: Fundamentals of Data Visualization with `ggplot2`](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/5.%20Learn%20R%20-%20Fundamentals%20of%20Data%20Visualization%20with%20ggplot2.Rmd)
 - Descriptive Statistics
 - Inferential Statistics
 
