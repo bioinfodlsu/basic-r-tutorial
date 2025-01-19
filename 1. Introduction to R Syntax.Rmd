@@ -1,7 +1,6 @@
 ---
 title: "1. Introduction to R Syntax"
 author: Daphne Janelyn L. Go
-output: html_notebook
 ---
 
 R is an open source programming language that is popular for statistics and data analysis. R was built by statisticians, so many common statistical operations are built into the base language. R also features powerful and intuitive libraries for plotting and a variety of packages for predictive modeling, making it one of the most popular languages for data science.
