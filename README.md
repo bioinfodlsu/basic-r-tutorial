@@ -16,7 +16,7 @@ In recent years, R has gained popularity in the field of machine learning. Packa
 ## Topic Outline
 
 - [Introduction to R Syntax](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/1.%20Introduction%20to%20R%20Syntax.Rmd)
-- Groups of Data: Vectors, Matrices & Lists
+- [Groups of Data: Vectors, Matrices & Lists](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/2.%20Groups%20of%20Data%20-%20Vectors%2C%20Matrices%20%26%20Lists.Rmd)
 - Learn R: Data Frames
 - Manipulating Data with `dplyr`
 - Learn R: Fundamentals of Data Visualization with `ggplot2`
