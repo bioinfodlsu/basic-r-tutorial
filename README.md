@@ -10,11 +10,12 @@ In recent years, R has gained popularity in the field of machine learning. Packa
 
 ## Before Starting
 
-Download and install both **R** and **RStudio**: https://posit.co/download/rstudio-desktop/
+1. Download and install both **R** and **RStudio**: https://posit.co/download/rstudio-desktop/
+1. We will be using R markdown for this tutorial. Kindly refer to this video on how to work with R markdown files on RStudio: https://www.youtube.com/watch?v=DNS7i2m4sB0
 
 ## Topic Outline
 
-- Introduction to R Syntax
+- [Introduction to R Syntax](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/1.%20Introduction%20to%20R%20Syntax.Rmd)
 - Groups of Data: Vectors, Matrices & Lists
 - Learn R: Data Frames
 - Manipulating Data with `dplyr`
