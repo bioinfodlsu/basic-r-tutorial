@@ -28,7 +28,7 @@ If Git is not installed, click the green `Code` button near the top right of the
 - [Introduction to R Syntax](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/1.%20Introduction%20to%20R%20Syntax.Rmd)
 - [Groups of Data: Vectors, Matrices & Lists](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/2.%20Groups%20of%20Data%20-%20Vectors%2C%20Matrices%20%26%20Lists.Rmd)
 - [Learn R: Data Frames](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/3.%20Learn%20R%20-%20Dataframes.Rmd)
-- Manipulating Data with `dplyr`
+- [Manipulating Data with `dplyr`](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/4.%20Manipulating%20Data%20with%20dplyr.Rmd)
 - Learn R: Fundamentals of Data Visualization with `ggplot2`
 - Descriptive Statistics
 - Inferential Statistics
