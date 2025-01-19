@@ -10,8 +10,18 @@ In recent years, R has gained popularity in the field of machine learning. Packa
 
 ## Before Starting
 
-1. Download and install both **R** and **RStudio**: https://posit.co/download/rstudio-desktop/
-1. We will be using R markdown for this tutorial. Kindly refer to this video on how to work with R markdown files on RStudio: https://www.youtube.com/watch?v=DNS7i2m4sB0
+### 1. Install the required software
+Download and install both **R** and **RStudio**: https://posit.co/download/rstudio-desktop/
+
+This tutorial consists of R markdown files. Kindly refer to this video on how to work with R markdown files on RStudio: https://www.youtube.com/watch?v=DNS7i2m4sB0
+
+### 2. Create a copy of this repository
+If you have [Git](https://git-scm.com/) installed, run the following command on the terminal:
+```
+git clone https://github.com/bioinfodlsu/basic-r-tutorial
+```
+
+If Git is not installed, click the green `Code` button near the top right of the repository and choose `Download ZIP`. Once the zipped folder has been downloaded, extract its contents.
 
 ## Topic Outline
 
