@@ -40,7 +40,7 @@ This tutorial references the following resources:
 - https://uclouvain-cbio.github.io/WSBIM1207/sec-dplyr.html
 
 The dataset we use in this tutorial was downloaded using [INPHARED](http://doi.org/10.1089/phage.2021.0007) last September 2022:
-- Cook, R., Brown, N., Redgwell, T., Rihtman, B., Barnes, M., Clokie, M., Stekel, D. J., Hobman, J. L., Jones, M. A., Millard, A. (2021). INfrastructure for a PHAge REference Database: Identification of large-scale biases in the current collection of cultured phage genomes. _PHAGE,2_(4), 214-223. http://doi.org/10.1089/phage.2021.0007
+- Cook, R., Brown, N., Redgwell, T., Rihtman, B., Barnes, M., Clokie, M., Stekel, D. J., Hobman, J. L., Jones, M. A., & Millard, A. (2021). INfrastructure for a PHAge REference Database: Identification of large-scale biases in the current collection of cultured phage genomes. _PHAGE, 2_(4), 214-223. http://doi.org/10.1089/phage.2021.0007
 
 ## Authors
 
