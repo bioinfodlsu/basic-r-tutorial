@@ -1,0 +1,130 @@
+---
+title: "2. Groups of Data - Vectors, Matrices & Lists"
+author: Mark Edward M. Gonzales
+---
+
+In this notebook, we will learn how to handle groups of data --- or, in R terminology, groups of _objects_. 
+
+R provides several ways for grouping objects:
+- **Vector**: Collection of objects with the same data type
+- **Matrix**: Table consisting of objects with the same data type
+- **List**: Collection of objects with possibly different data types
+
+
+## Vector
+A vector is a collection of objects with the same data type.
+
+To create a vector, use the `c()` function:
+
+```{r}
+amino_acids <- c("methionine", "leucine", "alanine", "valine", "glutamine", "threonine")
+```
+
+Accessing items in a vector can be done like so:
+
+```{r}
+amino_acids[1] # Access the first element
+amino_acids[2] # Access the second element
+```
+
+We can also combine two vectors into a single vector using the `c()` function:
+
+```{r}
+addl_amino_acids <- c("glycine", "cysteine", "serine")
+many_amino_acids <- c(amino_acids, addl_amino_acids)
+many_amino_acids
+```
+
+## Matrix
+A matrix is a table consisting of objects with the same data type.
+
+To create a matrix, use the `matrix()` function:
+
+```{r}
+amino_acids_matrix <- matrix(c("methionine", "leucine", "alanine", "valine", "glutamine", "threonine"), nrow=3, ncol=2)
+amino_acids_matrix
+```
+We can add rows and columns using `rbind()` and `cbind()`, respectively:
+
+```{r}
+amino_acids_matrix <-  rbind(amino_acids_matrix, c("proline", "arginine"))
+amino_acids_matrix
+```
+```{r}
+amino_acids_matrix <-  cbind(amino_acids_matrix, c("histidine", "phenylalanine", "tryptophan", "selenocysteine"))
+amino_acids_matrix
+```
+
+Accessing items in a matrix can be done like so:
+
+```{r}
+amino_acids_matrix[1, 2] # Accesses the first row, second column
+amino_acids_matrix[4, 3] # Accesses the fourth row, third column
+```
+
+We can also check if the items in a matrix satisfies a given condition:
+- `any()` checks if at least one of the items satisfies the condition
+- `all()` checks if all of the items satisfy the condition
+
+```{r}
+numbers <- matrix(c(2, 4, 6, 8, 10, 12, 14, 16, 18), nrow=3, ncol=3)
+any(numbers < 6)
+any(numbers < 1)
+all(numbers < 20)
+all(numbers < 5)
+```
+It is possible to name the rows and columns (also called the _dimensions_) of a matrix using `colnames()` and `rownames()`, respectively.
+
+This can greatly aid in making our matrix more descriptive, especially when we perform some analysis.
+
+```{r}
+colnames(numbers) <- c("Treatment 1", "Treatment 2", "Treatment 3")
+rownames(numbers) <- c("Patient 1", "Patient 2", "Patient 3")
+numbers
+```
+
+Finally, we demonstrate some matrix operations:
+
+```{r}
+numbers1 <- matrix(c(2, 4, 6, 8, 10, 12, 14, 16, 18), nrow=3, ncol=3)
+numbers2 <- matrix(c(12, 14, 16, 18, 20, 22, 24, 26, 28), nrow=3, ncol=3)
+
+numbers1 + numbers2
+numbers1 - numbers2
+numbers1 * numbers2
+numbers1 / numbers2
+
+100 * numbers1 # Scalar multiplication
+t(numbers1) # Matrix transpose
+```
+
+## List
+
+A list is a collection of objects with possibly different data types.
+
+To create a list, use the `list()` function:
+
+```{r}
+assorted_list <- list("proline", "methionine", 1, 2)
+assorted_list
+```
+
+Accessing list items can be a bit tricky though.
+
+Observe how `assorted_list[1]` does not return the item `proline` per se. It actually returns a list containing `proline`.
+
+```{r}
+assorted_list[1]
+```
+
+If we want the item `proline` to be returned, we have to use double brackets:
+
+```{r}
+assorted_list[[1]]
+```
+
+If we want a summary of the list elements, we can use the `summary()` function.
+
+```{r}
+summary(assorted_list)
+```
