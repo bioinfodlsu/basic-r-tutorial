@@ -1,4 +1,5 @@
 # Basics of R Programming
+![badge][badge-r]
 
 R is a powerful programming language and software environment widely used for statistical analysis, data visualization, and machine learning. It provides a vast array of tools and libraries that make it a popular choice among data scientists, statisticians, and researchers.
 
@@ -48,3 +49,5 @@ The dataset we use in this tutorial was downloaded using [INPHARED](http://doi.o
   mark_gonzales@dlsu.edu.ph
 
 These materials were originally created for the **Basic R Workshop**, jointly organized by the [Bioinformatics Lab](https://bioinfodlsu.com/) with the [Systems and Computational Biology Unit](https://dlsu-scomb.github.io/), De La Salle University, last July 12, 2023.
+
+[badge-r]: https://img.shields.io/badge/r-%23276DC3.svg?style=flat&logo=r&logoColor=white
