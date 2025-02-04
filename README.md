@@ -8,7 +8,7 @@ Moreover, R offers exceptional data visualization capabilities. Its default plot
 
 In recent years, R has gained popularity in the field of machine learning. Packages such as [`caret`](https://topepo.github.io/caret/), [`randomForest`](https://www.rdocumentation.org/packages/randomForest/versions/4.7-1.2), and [`keras`](https://cran.r-project.org/web/packages/keras/vignettes/) offer powerful tools for building and evaluating predictive models. R's integration with other languages, such as Python, allows users to leverage popular machine learning frameworks like TensorFlow and scikit-learn within their R workflow.
 
-## Before Starting
+## 📢 Before Starting
 
 ### 1. Install the required software
 Download and install both **R** and **RStudio**: https://posit.co/download/rstudio-desktop/
@@ -23,9 +23,13 @@ git clone https://github.com/bioinfodlsu/basic-r-tutorial
 
 If Git is not installed, click the green `Code` button near the top right of the repository and choose `Download ZIP`. Once the zipped folder has been downloaded, extract its contents.
 
-## Topic Outline
+## 📜 Topic Outline
 
-Topic | R Notebook | HTML (For Prettified Display)
+**R markdown** files (second column) can be directly opened and run on RStudio. However, when opened on GitHub, only the raw code is displayed and outputs (e.g., tables and plots) are stripped.
+
+**GitHub markdown** files (third column) cannot be directly opened and run on RStudio. However, GitHub displays them nicely while also preserving the outputs.
+
+Topic | R Markdown | GitHub Markdown
 -- | -- | --
 Introduction to R Syntax | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/1.%20Introduction%20to%20R%20Syntax.Rmd)
 Groups of Data: Vectors, Matrices & Lists | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/2.%20Groups%20of%20Data%20-%20Vectors%2C%20Matrices%20%26%20Lists.Rmd)
@@ -35,7 +39,7 @@ Learn R: Fundamentals of Data Visualization with `ggplot2` | [Link](https://gith
 Descriptive Statistics | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/6.%20Descriptive%20Statistics.Rmd)
 Inferential Statistics | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/7.%20Inferential%20Statistics.Rmd)
 
-## References
+## 📚 References
 
 This tutorial references the following resources:
 - https://www.kaggle.com/code/hamelg/intro-to-r-index/notebook
@@ -44,7 +48,7 @@ This tutorial references the following resources:
 The dataset we use in this tutorial was downloaded using [INPHARED](http://doi.org/10.1089/phage.2021.0007) last September 2022:
 - Cook, R., Brown, N., Redgwell, T., Rihtman, B., Barnes, M., Clokie, M., Stekel, D. J., Hobman, J. L., Jones, M. A., & Millard, A. (2021). INfrastructure for a PHAge REference Database: Identification of large-scale biases in the current collection of cultured phage genomes. _PHAGE, 2_(4), 214-223. http://doi.org/10.1089/phage.2021.0007
 
-## Authors
+## 💻 Authors
 
 - **Daphne Janelyn L. Go** <br>
   daphne_janelyn_go@dlsu.edu.ph
