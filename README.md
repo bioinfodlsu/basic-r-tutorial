@@ -25,13 +25,15 @@ If Git is not installed, click the green `Code` button near the top right of the
 
 ## Topic Outline
 
-- [Introduction to R Syntax](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/1.%20Introduction%20to%20R%20Syntax.Rmd)
-- [Groups of Data: Vectors, Matrices & Lists](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/2.%20Groups%20of%20Data%20-%20Vectors%2C%20Matrices%20%26%20Lists.Rmd)
-- [Learn R: Data Frames](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/3.%20Learn%20R%20-%20Dataframes.Rmd)
-- [Manipulating Data with `dplyr`](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/4.%20Manipulating%20Data%20with%20dplyr.Rmd)
-- [Learn R: Fundamentals of Data Visualization with `ggplot2`](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/5.%20Learn%20R%20-%20Fundamentals%20of%20Data%20Visualization%20with%20ggplot2.Rmd)
-- [Descriptive Statistics](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/6.%20Descriptive%20Statistics.Rmd)
-- [Inferential Statistics](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/7.%20Inferential%20Statistics.Rmd)
+Topic | R Notebook | HTML (For Prettified Display)
+-- | -- | --
+Introduction to R Syntax | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/1.%20Introduction%20to%20R%20Syntax.Rmd)
+Groups of Data: Vectors, Matrices & Lists | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/2.%20Groups%20of%20Data%20-%20Vectors%2C%20Matrices%20%26%20Lists.Rmd)
+Learn R: Data Frames | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/3.%20Learn%20R%20-%20Dataframes.Rmd)
+Manipulating Data with `dplyr` | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/4.%20Manipulating%20Data%20with%20dplyr.Rmd)
+Learn R: Fundamentals of Data Visualization with `ggplot2` | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/5.%20Learn%20R%20-%20Fundamentals%20of%20Data%20Visualization%20with%20ggplot2.Rmd)
+Descriptive Statistics | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/6.%20Descriptive%20Statistics.Rmd)
+Inferential Statistics | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/7.%20Inferential%20Statistics.Rmd)
 
 ## References
 
