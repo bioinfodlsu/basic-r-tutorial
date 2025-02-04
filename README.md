@@ -20,15 +20,15 @@ In recent years, R has gained popularity in the field of machine learning. Packa
 
 **GitHub markdown** files (third column) cannot be directly opened and run on RStudio. However, GitHub displays them nicely while also preserving the outputs.
 
-Topic | R Markdown | GitHub Markdown
--- | -- | --
-Introduction to R Syntax | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/1.%20Introduction%20to%20R%20Syntax.Rmd)
-Groups of Data: Vectors, Matrices & Lists | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/2.%20Groups%20of%20Data%20-%20Vectors%2C%20Matrices%20%26%20Lists.Rmd)
-Learn R: Data Frames | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/3.%20Learn%20R%20-%20Dataframes.Rmd)
-Manipulating Data with `dplyr` | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/4.%20Manipulating%20Data%20with%20dplyr.Rmd)
-Learn R: Fundamentals of Data Visualization with `ggplot2` | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/5.%20Learn%20R%20-%20Fundamentals%20of%20Data%20Visualization%20with%20ggplot2.Rmd)
-Descriptive Statistics | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/6.%20Descriptive%20Statistics.Rmd)
-Inferential Statistics | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/7.%20Inferential%20Statistics.Rmd)
+\# | Topic | R Markdown | GitHub Markdown
+-- | -- | -- | --
+1 | Introduction to R Syntax | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/1.%20Introduction%20to%20R%20Syntax.Rmd)
+2 | Groups of Data: Vectors, Matrices & Lists | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/2.%20Groups%20of%20Data%20-%20Vectors%2C%20Matrices%20%26%20Lists.Rmd)
+3 | Learn R: Data Frames | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/3.%20Learn%20R%20-%20Dataframes.Rmd)
+4 | Manipulating Data with `dplyr` | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/4.%20Manipulating%20Data%20with%20dplyr.Rmd)
+5 | Learn R: Fundamentals of Data Visualization with `ggplot2` | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/5.%20Learn%20R%20-%20Fundamentals%20of%20Data%20Visualization%20with%20ggplot2.Rmd)
+6 | Descriptive Statistics | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/6.%20Descriptive%20Statistics.Rmd)
+7 | Inferential Statistics | [Link](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/7.%20Inferential%20Statistics.Rmd)
 
 ## 📚 References
 
