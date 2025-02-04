@@ -12,7 +12,7 @@ In recent years, R has gained popularity in the field of machine learning. Packa
 
 1. Download and install both **R** and **RStudio**: https://posit.co/download/rstudio-desktop/
 1. This tutorial uses R markdown files. Kindly refer to this video on how to work with R markdown files on RStudio: https://www.youtube.com/watch?v=DNS7i2m4sB0
-1. Download this [file](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/phages.tsv) (`phages.tsv`), and place it inside the same folder as where you will be placing your R markdown files. 
+1. Download this [file](https://github.com/bioinfodlsu/basic-r-tutorial/blob/main/phages.tsv) (`phages.tsv`), and place it inside the same folder as your R markdown files. 
 
 ## 📜 Topic Outline
 
