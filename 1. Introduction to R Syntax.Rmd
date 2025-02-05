@@ -1,3 +1,11 @@
+---
+title: "1. Introduction to R Syntax"
+author: Daphne Janelyn L. Go
+output:
+  html_document:
+    keep_md: yes
+---
+
 # 1. Introduction to R Syntax
 _Daphne Janelyn L. Go_
 
