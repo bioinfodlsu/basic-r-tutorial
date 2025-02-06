@@ -10,6 +10,7 @@ The tutorial materials can be viewed at [https://bioinfodlsu.com/basic-r-tutoria
 
 - **Daphne Janelyn L. Go** <br>
   daphne_janelyn_go@dlsu.edu.ph
+  
 - **Mark Edward M. Gonzales** <br>
   mark_gonzales@dlsu.edu.ph
 
