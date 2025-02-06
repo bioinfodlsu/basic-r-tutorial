@@ -1,12 +1,8 @@
 ---
-output: github_document
+title: "1. Introduction to R Syntax"
+author: Daphne Janelyn L. Go^[De La Salle University, Manila, Philippines, daphne_janelyn_go@dlsu.edu.ph]
+output: html_notebook
 ---
-
-# 1. Introduction to R Syntax
-**Daphne Janelyn L. Go** <br>
-_Bioinformatics Lab_ <br>
-_Advanced Research Institute for Informatics, Computing and Networking_ <br>
-_De La Salle University, Manila, Philippines_
 
 R is an open source programming language that is popular for statistics and data analysis. R was built by statisticians, so many common statistical operations are built into the base language. R also features powerful and intuitive libraries for plotting and a variety of packages for predictive modeling, making it one of the most popular languages for data science.
 

@@ -1,12 +1,8 @@
 ---
-output: github_document
+title: "4. Manipulating Data with `dplyr`"
+author: Mark Edward M. Gonzales^[De La Salle University, Manila, Philippines, gonzales.markedward@gmail.com]
+output: html_notebook
 ---
-
-# 4. Manipulating Data with `dplyr`
-**Mark Edward M. Gonzales** <br>
-_Bioinformatics Lab_ <br>
-_Advanced Research Institute for Informatics, Computing and Networking_ <br>
-_De La Salle University, Manila, Philippines_
 
 In this notebook, we will learn how to perform data manipulation — and create data processing pipelines — using a powerful package called `dplyr`.
 

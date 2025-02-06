@@ -1,12 +1,8 @@
 ---
-output: github_document
+title: "3. Dataframes"
+author: Daphne Janelyn L. Go^[De La Salle University, Manila, Philippines, daphne_janelyn_go@dlsu.edu.ph]
+output: html_notebook
 ---
-
-# 3. Dataframes
-**Daphne Janelyn L. Go** <br>
-_Bioinformatics Lab_ <br>
-_Advanced Research Institute for Informatics, Computing and Networking_ <br>
-_De La Salle University, Manila, Philippines_
 
 In data analysis, information is often structured in organized in tables that have a certain number of rows and columns like an Excel spreadsheet or relational database table.
 
@@ -22,7 +18,7 @@ b <- c("R", "Workshop", "SCOMB", "bioinfom", "biology")
 c <- c(TRUE, FALSE, TRUE, TRUE, FALSE)
 
 # Create a new data frame
-my_frame <- data.frame(a,b,c)
+my_frame <- data.frame(a, b, c)
 
 my_frame
 ```
@@ -34,7 +30,7 @@ You can also change your column and row names.
 colnames(my_frame) <- c("c1", "c2", "c3")
 
 # Add row names
-rownames(my_frame) <- c("r1", "r2", "r3", "r4","r5")
+rownames(my_frame) <- c("r1", "r2", "r3", "r4", "r5")
 my_frame
 ```
 
@@ -60,7 +56,7 @@ summary(dataset)
 Data frames support a few other basic summary operations.
 
 ```{r}
-dim (dataset)
+dim(dataset)
 nrow(dataset)
 ncol(dataset)
 ```
@@ -70,7 +66,7 @@ If a data frame is large, you won't want to try to print the entire frame to the
 ```{r}
 head(dataset, 5)
 
-tail (dataset, 5)
+tail(dataset, 5)
 ```
 
 **Dataframe Indexing**
@@ -83,19 +79,19 @@ Data frames also support matrix-like indexing by using a single square bracket w
 
 ```{r}
 head(dataset$Molecule)
-head(dataset [["Molecule"]])
-head(dataset [[7]])
+head(dataset[["Molecule"]])
+head(dataset[[7]])
 
 # Get the value at row 2 column 6
-dataset[2,6]
+dataset[2, 6]
 
 # Get the second row
 dataset[2, ]
 
 # Get the 6th column
-dataset[ , 6]
+dataset[, 6]
 
-#Get a column by using its name
+# Get a column by using its name
 dataset[, "Description"]
 ```
 
@@ -104,5 +100,5 @@ dataset[, "Description"]
 You can also use the subset() function to create data frame subsets based on logical statements. subset() takes the data frame as the first argument and then a logical statement as the second argument create a subset.
 
 ```{r}
-subset(dataset,(dataset$molGC.... > 50))
+subset(dataset, (dataset$molGC.... > 50))
 ```
