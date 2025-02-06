@@ -1,7 +1,12 @@
 ---
-title: "2. Groups of Data - Vectors, Matrices & Lists"
-author: Mark Edward M. Gonzales
+output: github_document
 ---
+
+# 2. Groups of Data - Vectors, Matrices & Lists
+**Mark Edward M. Gonzales** <br>
+_Bioinformatics Lab_ <br>
+_Advanced Research Institute for Informatics, Computing and Networking_ <br>
+_De La Salle University, Manila, Philippines_
 
 In this notebook, we will learn how to handle groups of data --- or, in R terminology, groups of _objects_. 
 

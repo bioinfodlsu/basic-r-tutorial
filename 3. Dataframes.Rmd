@@ -1,7 +1,12 @@
 ---
-title: "3. Learn R - Dataframes"
-author: Daphne Janelyn L. Go
+output: github_document
 ---
+
+# 3. Dataframes
+**Daphne Janelyn L. Go** <br>
+_Bioinformatics Lab_ <br>
+_Advanced Research Institute for Informatics, Computing and Networking_ <br>
+_De La Salle University, Manila, Philippines_
 
 In data analysis, information is often structured in organized in tables that have a certain number of rows and columns like an Excel spreadsheet or relational database table.
 
