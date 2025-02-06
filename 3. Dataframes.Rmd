@@ -1,5 +1,5 @@
 ---
-title: "3. Dataframes"
+title: "Dataframes"
 author: Daphne Janelyn L. Go^[De La Salle University, Manila, Philippines, daphne_janelyn_go@dlsu.edu.ph]
 output: html_notebook
 ---

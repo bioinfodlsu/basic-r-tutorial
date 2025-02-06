@@ -1,5 +1,5 @@
 ---
-title: "5. Fundamentals of Data Visualization with `ggplot2`"
+title: "Fundamentals of Data Visualization with `ggplot2`"
 author: Daphne Janelyn L. Go^[De La Salle University, Manila, Philippines, daphne_janelyn_go@dlsu.edu.ph]
 output: html_notebook
 ---

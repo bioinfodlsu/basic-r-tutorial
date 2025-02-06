@@ -1,5 +1,5 @@
 ---
-title: "1. Introduction to R Syntax"
+title: "Introduction to R Syntax"
 author: Daphne Janelyn L. Go^[De La Salle University, Manila, Philippines, daphne_janelyn_go@dlsu.edu.ph]
 output: html_notebook
 ---

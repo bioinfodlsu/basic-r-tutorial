@@ -1,5 +1,5 @@
 ---
-title: "6. Descriptive Statistics"
+title: "Descriptive Statistics"
 author: Daphne Janelyn L. Go^[De La Salle University, Manila, Philippines, daphne_janelyn_go@dlsu.edu.ph]
 output: html_notebook
 ---
