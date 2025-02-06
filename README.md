@@ -1,4 +1,4 @@
-# Basics of R Programming
+# Basic R Programming Tutorial
 
 ![badge][badge-r]
 
